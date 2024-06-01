@@ -7,7 +7,7 @@ import {createServer} from "http"
 
 const app = express();
 const corsOptions = {
-    origin:"http://localhost:5173",
+    origin:"https://deshareclient-ulyr-git-main-bhowmiks-projects.vercel.app",
     methods: ["GET", "POST"],
     credentials: true,
 }
